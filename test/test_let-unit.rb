@@ -1,7 +1,9 @@
 require 'helper'
 
 class TestLetUnit < Test::Unit::TestCase
-  should "probably rename this file and start testing for real" do
-    flunk "hey buddy, you should probably rename this file and start testing for real"
+  let(:one) { 1 }
+
+  should "allow let statements" do
+    assert_equal one, 1
   end
 end
