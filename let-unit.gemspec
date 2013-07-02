@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Len Smith"]
   s.date = "2013-07-02"
-  s.description = "TODO: longer description of your gem"
+  s.description = "Brings the syntatic sugar of Rspec's let to test-unit"
   s.email = "len@barrison.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -32,7 +32,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.25"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "Bring let to test-unit"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
